@@ -3,5 +3,7 @@
 .openscripts
 classes
 /.settings/
+/bin/
 /results/
+/target/
 
