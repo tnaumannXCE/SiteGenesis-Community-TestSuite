@@ -17,9 +17,9 @@ The following prerequisites and installation steps are needed to run the test su
 
 #### Prerequisites
 
-- Firefox 31.0 (or higher)
 - XLT&reg; Script Developer 4.5.0 (or higher)
-- A [Demandware](http://www.demandware.com/) SiteGenesis v15.1 or higher reference store installation
+- Firefox 31.0 (or higher)
+- A [Demandware](http://www.demandware.com/) SiteGenesis v15.1 or higher reference shop installation
 
 #### Installation
 
@@ -30,7 +30,7 @@ The following prerequisites and installation steps are needed to run the test su
 - Set the `storefront_url` of the shop system under test in `XLT Script Developer > Manage Global Test Data`.
 - Open a test case in the navigation panel and click the replay button in the toolbar.
 
-### XLT Framework for Webdriver-based Execution
+### XLT Framework for WebDriver-based Execution
 
 #### Prerequisites
 
@@ -43,7 +43,6 @@ The following prerequisites and installation steps are needed to run the test su
 - [Download the XLT Framework](https://www.xceptance.com/en/xlt/download.html) and unzip it into a directory of your choice.
 - Import test suite as new Java project.
 - Import XLT libraries.
-- Edit configuration see below.
 - Run test as JUnit test (default configuration: Firefox WebDriver).
 - Adapt WebDriver configurations in `project.properties` if needed.
 
@@ -87,7 +86,7 @@ We have already build a __foundation__ of over __200 modules__ structured in ove
 
 ### Packages
 
-__Packages__ form the main tree structure of the test suite. Each package may consists of other subpackages (layers) and contains test cases (named `tests.subpackage`), script modules (named `modules.subpackage`) or optional Java modules. The file system implements them as folders.
+__Packages__ form the main structure of the test suite (project tree). Each package may consist of other subpackages (layers) and contains test cases (named `tests.subpackage`), script modules (named `modules.subpackage`) or optional Java modules. The file system implements them as folders.
 
 ### Tests
 
