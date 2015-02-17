@@ -132,7 +132,7 @@
     <parameter name="position" value="1"/>
   </module>
   <codecomment>__Caution:__ Remaining address can not be validated at high stability at the moment, because Site Genesis occasionally mixes up the ordering of the address book.</codecomment>
-  <module name="modules.pages.account.paymentsettings.VAccount_PaymentSettings_validateCreditCard" disabled="true">
+  <module name="modules.pages.account.paymentsettings.VAccount_PaymentSettings_validateCreditCard">
     <parameter name="position" value="1"/>
     <parameter name="owner" value="${owner_02}"/>
     <parameter name="typeShort" value="${typeShort_02}"/>
