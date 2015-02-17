@@ -19,7 +19,7 @@ The following prerequisites and installation steps are needed to run the test su
 
 - XLT&reg; Script Developer 4.5.0 (or higher)
 - Firefox 31.0 (or higher)
-- A [Demandware](http://www.demandware.com/) SiteGenesis v15.1 or higher reference shop installation
+- A [Demandware](http://www.demandware.com/) SiteGenesis v15.2 or higher reference shop installation
 
 #### Installation
 
@@ -109,7 +109,7 @@ __Test Data__ or short __Data__ can be placed on global, package, module or test
 ## Test Suite Metadata
 
 - Name: SiteGenesis-Community-TestSuite
-- Version: v15.1.7 (matching SiteGenesis)
+- Version: v15.2.1 (matching SiteGenesis)
 - Release: February 2015
 - License: MIT License
 - License URI: http://opensource.org/licenses/MIT
