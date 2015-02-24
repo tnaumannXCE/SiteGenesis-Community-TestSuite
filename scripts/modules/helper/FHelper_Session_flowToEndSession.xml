@@ -14,11 +14,11 @@
 - Goto homepage
 - Delete cookies
 - Close homepage</codecomment>
-  <command name="waitForElementPresent" target="//*[@id='header']//img[1]"/>
+  <command name="waitForElementPresent" target="css=#header h1.primary-logo img"/>
   <command name="pause" value="300">
     <comment>SiteGenesis needs occasionally some time until page is loaded at batch testing.</comment>
   </command>
-  <command name="clickAndWait" target="//*[@id='header']//img[1]"/>
+  <command name="clickAndWait" target="css=#header h1.primary-logo img"/>
   <command name="waitForElementPresent" target="id=q">
     <comment>Simple/short validation to make sure that the homepage is loaded</comment>
   </command>
