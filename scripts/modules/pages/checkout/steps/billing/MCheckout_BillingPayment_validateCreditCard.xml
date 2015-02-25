@@ -8,7 +8,7 @@
   <parameter name="year" desc="year"/>
   <parameter name="cvn" desc="cvn"/>
   <command name="store" target="css=#dwfrm_billing_paymentMethods_creditCard" value="css_creditcard"/>
-  <command name="assertElementPresent" target="css=.payment-method-options .form-row [value=&quot;CREDIT_CARD&quot;][checked=&quot;checked&quot;]"/>
+  <command name="assertChecked" target="css=.payment-method-options .form-row [value=&quot;CREDIT_CARD&quot;]"/>
   <command name="assertText" target="${css_creditcard}_owner" value="@{owner}"/>
   <command name="assertText" disabled="true" target="${css_creditcard}_type option.select-option[selected=&quot;selected&quot;]" value="@{type}">
     <comment>__Caution:__ Site Genesis currently doesn't select this value if loaded from saved credit cards.</comment>

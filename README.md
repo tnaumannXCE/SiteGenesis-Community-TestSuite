@@ -1,13 +1,19 @@
 # Readme
 
-The test suite focuses on functional frontend testing. It was build and may be run with __XLT Script Developer__ in Firefox or the __XLT Framework__ by orchestrating different WebDrivers. As test suites sometimes tend to become complex and hard to maintain we realized it is time to build a clearly structured test suite with a well-defined set of tests.
+This is a functional test suite for Demandware SiteGenesis, the best practice ecommerce reference store implementation for and by Demandware.
 
-The project idea is to collect experiences, consolidate knowledge and share ideas of testing practises. Although this test suite is based on testing the storefront of the demo shop __Demandware__ __SiteGenesis__ the underlying concepts and the communicated know-how are valid for building test suites of other web applications as well. Everybody is invited to use it, learn from it, improve it and adapt it to their needs. Possible purposes include:
+Because test suites sometimes tend to become complex and hard to maintain, we realized it is time to build a clearly structured test suite with a well-defined set of tests.
+
+The project idea is to collect experiences, consolidate knowledge and share ideas of testing practises. Although this test suite is based on testing the storefront of the demo shop __Demandware__ __SiteGenesis__ the underlying concepts and the communicated know-how are valid for building test suites of other web applications as well. Everybody is invited to use it, learn from it, improve it and adapt it to their needs.
+
+Possible use cases are:
 
 - Test suite to automate new store based on Demandware SiteGenesis
 - Starting point for test development with fast learning curve
 - Demonstration of test automation and test suite structuring
 - Reuseable best practises in other (existing) projects
+
+This test suite has been built for and with __XLT__
 
 ## Test Suite Setup
 
@@ -19,7 +25,7 @@ The following prerequisites and installation steps are needed to run the test su
 
 - XLT&reg; Script Developer 4.5.0 (or higher)
 - Firefox 31.0 (or higher)
-- A [Demandware](http://www.demandware.com/) SiteGenesis v15.1 or higher reference shop installation
+- A [Demandware](http://www.demandware.com/) SiteGenesis v15.2 or higher reference shop installation
 
 #### Installation
 
@@ -109,7 +115,7 @@ __Test Data__ or short __Data__ can be placed on global, package, module or test
 ## Test Suite Metadata
 
 - Name: SiteGenesis-Community-TestSuite
-- Version: v15.1.7 (matching SiteGenesis)
+- Version: v15.2.1 (matching SiteGenesis)
 - Release: February 2015
 - License: MIT License
 - License URI: http://opensource.org/licenses/MIT
