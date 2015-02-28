@@ -2,12 +2,17 @@
 <scriptmodule xmlns="http://xlt.xceptance.com/xlt-script/2" version="6">
   <description>Validate account navigation.</description>
   <codecomment>Account secondary navigation</codecomment>
+  <command name="pause" value="500">
+    <comment>Normally we should not pause, but the DOM seems to be active in the background and we do not have a change to react to that.</comment>
+  </command>
   <command name="waitForElementPresent" target="css=#secondary.nav nav .secondary-navigation"/>
-  <command name="store" target="css=#secondary.nav nav .secondary-navigation span.toggle:nth-of-type" value="css_account_nav"/>
-  <command name="assertText" target="${css_account_nav}(1)" value="regexpi:My Account"/>
-  <command name="assertText" target="${css_account_nav}(2)" value="regexpi:Order Information"/>
-  <command name="assertText" target="${css_account_nav}(3)" value="regexpi:Wish List"/>
-  <command name="assertText" target="${css_account_nav}(4)" value="regexpi:Gift Registries"/>
+  <command name="waitForVisible" target="css=#secondary.nav nav .secondary-navigation ul li">
+    <comment>This is collapse in the beginning, so we have to wai until we see it.</comment>
+  </command>
+  <command name="assertText" target="css=#secondary.nav nav .secondary-navigation span.toggle:nth-of-type(1)" value="regexpi:My Account"/>
+  <command name="assertText" target="css=#secondary.nav nav .secondary-navigation span.toggle:nth-of-type(2)" value="regexpi:Order Information"/>
+  <command name="assertText" target="css=#secondary.nav nav .secondary-navigation span.toggle:nth-of-type(3)" value="regexpi:Wish List"/>
+  <command name="assertText" target="css=#secondary.nav nav .secondary-navigation span.toggle:nth-of-type(4)" value="regexpi:Gift Registries"/>
   <command name="assertText" target="css=#secondary.nav nav .secondary-navigation .content-asset .content-asset span.toggle:nth-of-type(1)" value="regexpi:Shop Confidently"/>
   <codecomment>Account secondary nav asset</codecomment>
   <command name="assertElementPresent" target="css=#secondary .account-nav-asset"/>
