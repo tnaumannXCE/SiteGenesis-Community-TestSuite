@@ -1,6 +1,6 @@
-# GitHub Page
+# SiteGenesis Community Test Suite
 
-__Please visit [xceptance.github.io/SiteGenesis-Community-TestSuite](http://xceptance.github.io/SiteGenesis-Community-TestSuite/)__
+__Please visit [xceptance.github.io/SiteGenesis-Community-TestSuite](https://xceptance.github.io/SiteGenesis-Community-TestSuite/)__ for full documentation and all details to get started with test automation on Demandware and with XLT.
 
-- Generation of project page from README with custom theme
+- Project page is automatically generated from the README using a custom theme
 - Based on [Flatdoc](http://ricostacruz.com/flatdoc/)
