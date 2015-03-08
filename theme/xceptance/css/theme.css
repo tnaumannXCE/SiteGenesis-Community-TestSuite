@@ -12,7 +12,9 @@
   position: relative;
   z-index: 1;
   width: 100%;
-  display: table; }
+  display: table; 
+  height: auto;
+}
 
 .title-card > .in {
   display: table-cell;
@@ -32,11 +34,16 @@
 .title-card h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 3.3em;
-  font-weight: 300;
+  font-weight: bold;
   line-height: 1.1;
   margin-top: 50px;
   margin-bottom: 0.5em;
-  color: #fff; }
+  color: #fff; 
+}
+
+.title-card h1 a {
+    color: inherit;
+}
 
 .title-card p {
   font-family: montserrat, sans-serif;
