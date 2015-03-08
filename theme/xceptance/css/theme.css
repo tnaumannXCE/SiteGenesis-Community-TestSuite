@@ -13,7 +13,7 @@
   z-index: 1;
   width: 100%;
   display: table; 
-  height: auto;
+  height: auto !important; /* break the large auto height */
 }
 
 .title-card > .in {
@@ -36,13 +36,19 @@
   font-size: 3.3em;
   font-weight: bold;
   line-height: 1.1;
-  margin-top: 50px;
+  margin-top: 2em;
   margin-bottom: 0.5em;
   color: #fff; 
+  
+  text-shadow: 1px 1px 5px rgba(50, 50, 50, 0.9);
 }
 
 .title-card h1 a {
     color: inherit;
+}
+
+.title-card h3 {
+    text-shadow: 1px 1px 5px rgba(50, 50, 50, 0.9);
 }
 
 .title-card p {
