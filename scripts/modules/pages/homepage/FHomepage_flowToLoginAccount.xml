@@ -22,5 +22,6 @@
     <parameter name="email" value="@{email}"/>
     <parameter name="password" value="@{password}"/>
   </module>
+  <command name="pause" value="250"/>
   <command name="waitForElementPresent" target="css=.account-logout"/>
 </scriptmodule>
