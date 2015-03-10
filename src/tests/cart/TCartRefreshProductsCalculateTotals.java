@@ -7,7 +7,7 @@ import com.xceptance.xlt.api.engine.scripting.ScriptName;
 
 
 /**
- * <p>Test refresh products and calculate sums with update quantity and resort rows in cart.</p>
+ * <p>Test refresh products and calculate sums with update quantity and resort rows in cart. This test needs a full desktop view of the browser, otherwise the minicart won&#39;t display the total and the test will fail.</p>
  * <h1 id="1-setup-and-preparation">1. Setup and preparation</h1>
  * <ul>
  * <li>Start session, open homepage and delete all visible cookies.</li>
